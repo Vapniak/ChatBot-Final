@@ -1,0 +1,488 @@
+{
+    "intents":[
+        {   
+            "tag":"przywitanie",
+            "patterns": [
+                "Dzień dobry",
+                "Witam",
+                "Cześć",
+                "Siema",
+                "Dobry wieczór",
+                "Elo",
+                "Wassup",
+                "Joł",
+                "Hej",
+                "Pochwalony",
+                "Witaj",
+                "Elo elo trzy dwa zero",
+                "Siemanko",
+                "Elo Elo"
+            ],
+            "responses":[
+                "Dzień dobry",
+                "Witam",
+                "Cześć",
+                "Siema",
+                "Dobry wieczór",
+                "Elo",
+                "Wassup",
+                "Joł",
+                "Hej",
+                "Witaj"
+            ]
+        },
+        {   
+            "tag":"przywitanieang",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Good morning",
+                "Morning",
+                "Good Afternoon",
+                "Good Evening",
+                "Wassup",
+                "Hey"
+            ],
+            "responses":[
+                "Hello",
+                "Hi",
+                "Good morning",
+                "Morning",
+                "Good Afternoon",
+                "Good Evening",
+                "Wassup",
+                "Hey"
+            ]
+        },
+        {
+            "tag":"pozegnanie",
+            "patterns": [
+                "Do widzenia",
+                "Do usłyszenia",
+                "Narka",
+                "Na razie",
+                "Pa, pa",
+                "Do zobaczenia",
+                "Trzymaj się",
+                "Do zobaczenia wkrótce",
+                "Żegnam",
+                "Pa",
+                "Miłego dnia życzę, do widzenia",
+                "Dobranoc",
+                "Dobrej nocy"
+            ],
+            "responses": [
+                "Do widzenia",
+                "Do usłyszenia",
+                "Narka",
+                "Na razie",
+                "Pa, pa",
+                "Do zobaczenia",
+                "Trzymaj się",
+                "Do zobaczenia wkrótce",
+                "Żegnam",
+                "Pa",
+                "Miłego dnia życzę, do widzenia"
+            ]
+        },
+        {
+            "tag":"pozegnaniaang",
+            "patterns": [
+                "Bye",
+                "Bye bye",
+                "Have a good day",
+                "Farewell",
+                "Later",
+                "I'm out",
+                "Take care",
+                "Be cool",
+                "Be good",
+                "Catch you later",
+                "Cheers",
+                "Have a good one",
+                "I must be going",
+                "I'm off",
+                "Peace out",
+                "See ya",
+                "See you around",
+                "See you later",
+                "So long",
+                "Take it easy",
+                "Till next time",
+                "Toodles"
+            ],
+            "responses": [
+                "Bye",
+                "Bye bye",
+                "Have a good day",
+                "Farewell",
+                "Later",
+                "I'm out",
+                "Take care",
+                "Be cool",
+                "Be good",
+                "Catch you later",
+                "Cheers",
+                "Have a good one",
+                "I must be going",
+                "I'm off",
+                "Peace out",
+                "See ya",
+                "See you around",
+                "See you later",
+                "So long",
+                "Take it easy",
+                "Till next time",
+                "Toodles"
+            ]
+        },
+        {
+            "tag":"osobyprojekt",
+            "patterns": [
+                "Kto pracował przy projekcie?",
+                "Kto uczestniczył przy tym projekcie?",
+                "Kto to stworzył?",
+                "Kto zrobił tą pracę?",
+                "Kto przyszykował stronę?",
+                "Kto zrobił tę stronę?",
+                "Kto nad tym pracował?",
+                "Kto pracował przy stronie?",
+                "Kto pracował nad tą stroną?",
+                "Kto stworzył ten projekt",
+                "Kto wykonał projekt?",
+                "Kto wykonał tą pracę?",
+                "Jakie osoby robiły ten projekt?",
+                "Pracował na tym?",
+                "Twórcami są?",
+                "Stworzyli to?",
+                "Pracowali nad tym?",
+                "Zostało zrobione to przez?",
+                "Kto to wykonał?",
+                "Jakie osoby pracowały przy projekcie?",
+                "Ile osób pracowało przy projekcie?",
+                "Kim są twórcy",
+                "Kim byli twórcy?",
+                "Twórcami są?",
+                "Pracowali nad tym?",
+                "Zrobili to?",
+                "Dzięki komu działa strona?"
+            ],
+            "responses": [
+                "Przy tym projekcie pracowali: Oliwier Adamczyk - programista, pomysłodawca; Piort Piskorz - copywriter;  Bartłomiej Pachniak - copywriter;  Łukasz Kucharczyk - programista, grafik;"
+            ]
+        },
+        {
+            "tag":"osobyprojektang",
+            "patterns": [
+                "Who worked on the site?",
+                "Who was involved in this project?",
+                "Who did this job?",
+                "Who prepared the page?",
+                "Who worked on it?",
+                "Who worked on this page?",
+                "Who did this job?",
+                "What kind of people did this project?",
+                "Creators are?",
+                "Who made it?",
+                "Who create it?",
+                "Was it made by?",
+                "Who made this site?",
+                "Who made this project?",
+                "What people worked on the project?",
+                "Thanks to whom the website works?",
+                "Who were the creators?",
+                "Who are the creators?",
+                "Who makes the site work?"
+            ],
+            "responses": [
+                "The project was created by: Oliwier Adamczyk - programmer, originator; Piort Piskorz - copywriter; Bartłomiej Pachniak - copywriter; Łukasz Kucharczyk - programmer, graphic designer;"
+            ]
+        },
+        {
+            "tag":"jezyk",
+            "patterns": [
+                "Jakich języków użyto do stworzenia strony?",
+                "W jakim języku jest to zrobione?",
+                "W jakim języku jest to napisane?",
+                "Jakie języki zostały użyte?",
+                "Co to za język programowania?",
+                "W czym zostało to napisane?",
+                "W czym to zostało zrobione?",
+                "Jaki to język programowania?",
+                "W czym to zrobili?",
+                "Jaki Język został użyty?",
+                "Co użyto do strony?"
+
+            ],
+            "responses": [
+                "Nasz projekt jest oparty głównie na językach takich jak JavaScript, HTML, CSS, Python oraz na został stworzony na rozbudowanych bazach danych w Firebase od firmy Google."
+            ]
+        },
+        {
+            "tag":"jezykang",
+            "patterns": [
+                "In what language is it done?",
+                "What language is it written in?",
+                "What languages were used?",
+                "What is this programming language?",
+                "What was it written in?",
+                "What was it done in?",
+                "What programming language is it?",
+                "What did they do it in?",
+                "What language was used?",
+                "What was used for the site?"
+            ],
+            "responses": [
+                "Our project is based mainly on languages such as JavaScript, HTML, CSS, Python and on extensive databases in Firebase from Google."
+            ]
+        },
+        {
+            "tag":"wygrana",
+            "patterns": [
+                "Dlaczego akurat Wy powinniście wygrać?",
+                "Czemu Wasza praca powwinna zostać wyróżniona?",
+                "Czemu Wasza praca powwinna wygrać?",
+                "Czy to wygra konkurs?",
+                "Czemu ta praca ma wygrać?",
+                "Czym wyróżnia się ta praca?",
+                "Czym ta praca się wyróżnia?",
+                "Dlaczego ta praca ma wygrać?"
+            ],
+            "responses": [
+                "Dla naszego zespołu najważniejsza jest pomoc potrzebującym, jak i dobra zabawa. Dzięki temu projektowi możemy pomóc potrzebującym obywatelom, którzy przez pewne czynniki nie mogą wykonać niektórych czynności."
+            ]
+        },
+        {
+            "tag":"wygranaang",
+            "patterns": [
+                "Why should you win?",
+                "Why should your work be awarded?",
+                "Why should your work win?",
+                "Why is this job going to win?",
+                "What makes this work different?",
+                "Why is this job going to win?"
+            ],
+            "responses": [
+                "For our team, the most important thing is to help those in need and have fun. Thanks to this project, we can help needy citizens who, due to certain factors, are unable to perform certain activities."
+            ]
+        },
+        {
+            "tag":"kontakt",
+            "patterns": [
+                "Jak mogę się skontaktować z Wami?",
+                "Gdzie uzyskam kontakt do was?",
+                "Czy mogę się z wami skontaktować, przez telefon?",
+                "Jaki jest e-mail kontaktowy?",
+                "Można prosić o kontakt do was?",
+                "Jak się skomunikować z Wami?",
+                "Jakie są dostępne opcje komunikacji z Wami",
+                "Po przez co moge się z Wami skomunikować?",
+                "Jak mogę Wam dać znać o błędzie?",
+                "Jak mógłbym poznać osobę do skonatkowania się?",
+                "Można poprosić o kontakt?",
+                "Z kont wziąść do was kontakt?",
+                "Gdzie mogę się kontaktować z problemem?",
+                "Co mam zrobić z błedem?",
+                "Kto może mi pomóc w zroziązaniu problemu?",
+                "Kto może mi pomóc?",
+                "Gdzie mogę szukać pomocy?",
+                "Co zrobić jeśli znajde błąd?"
+            ],
+            "responses": [
+                "Osoba do, której można się skontakować w razie jakichkolwiek problemów: Łukasz Kucharczyk; e-mail:Kucharczyk.lukasz@zst.radom.pl; nr tel. 790244766"
+            ]
+        },
+        {
+            "tag":"kontaktang",
+            "patterns": [
+                "How can I contact you?",
+                "How to communicate with you?",
+                "How can I let you know about the bug?",
+                "How could I get to know a congested person?",
+                "Where can I contact the problem?",
+                "What should I do with the error?",
+                "Who can help me solve the problem?",
+                "Who can help me?",
+                "Where can I look for help?",
+                "What if I find a bug?",
+                "What are the available options for communicating with you",
+                "Where can I get contact with you?",
+                "Can I contact you by phone?",
+                "What is the contact email?",
+                "It is possible to ask for a contact for you"
+            ],
+            "responses": [
+                "Person to contact in case of any problems: Łukasz Kucharczyk; e-mail: Kucharczyk.lukasz@zst.radom.pl; tel. 790 244 766"
+            ]
+        },
+        {
+            "tag":"imiebota",
+            "patterns":[
+                "Jak się nazywasz?",
+                "Jak masz na imię?",
+                "Jak na ciebie mówią",
+                "Jak się zwiesz",
+                "Jak cię zwą?",
+                "Kim ty jesteś?",
+                "Jak cię nazywają?",
+                "Z kim mam doczynienia?",
+                "Mówią na ciebie?",
+                "Masz na imię?",
+                "Nazywasz się?",
+                "Jak na ciebie wołają?",
+                "Jak cię nazwali?",
+                "Jak się mianujesz?",
+                "Jak mam się do ciebie określać?",
+                "Z jakim imieniem sie upodabniasz?",
+                "Za kogo się uważasz?",
+                "Kim mam cię określać?",
+                "Za kogo się podajesz?"
+
+            ],
+            "responses":[
+                "Mam na imię Bob",
+                "Nazywają mnie Bob",
+                "Mówią na mnie Bob",
+                "Mów do mnie Bob"
+            ]
+        },
+        {
+            "tag":"imiebotaang",
+            "patterns":[
+                "What is your name?",
+                "Tell me your name",
+                "How you are called?",
+                "What's your name?",
+                "As they say",
+                "Who are you?",
+                "Who am I dealing with?",
+                "Your name is?",
+                "How they are talking to you?",
+                "How do you call yourself?",
+                "Please state your name",
+                "What are you calling yourself",
+                "What do they call you?"
+            ],
+            "responses":[
+                "My name is Bob",
+                "They call me Bob",
+                "I'm called Bob"
+            ]
+        },
+        {
+            "tag":"nierozumiem",
+            "patterns":[],
+            "responses":[
+               "Nie rozumiem",
+               "Możesz powtórzyć, bo nie rozumiem",
+               "Nie zrozumiałem polecenia",
+               "Nie mam pojęcia",
+               "Nie wiem",
+               "Tej komendy nie ma w moim oprogramowaniu",
+               "Dobre pytanie, nie znam odpowiedzi na nie",
+               "Przepraszam za moją ignorację, nie znam opdowiedzi",
+               "Skąd mam wiedzieć?",
+               "Nie mogę ci pomóc",
+               "Nie pytaj mnie, nie znam odpowiedzi"
+            ]
+        },
+        {
+            "tag":"nierozumiemang",
+            "patterns":[],
+            "responses":[
+               "I don't understand",
+               "You can repeat because I don't understand",
+               "I did not understand the command",
+               "I have no idea",
+               "I do not know",
+               "Do not ask me, I don't know",
+               "Good question, I don't know",
+               "Excuse my ignorance, but I don't know ",
+               "How should i know",
+               "I can't help you there",
+               "I have no clue"
+            ]
+        },
+        {
+            "tag":"jakiezastosowane",
+            "patterns":[
+                "Co to robi?",
+                "Jakie ma to zastosowanie?",
+                "Po co to?",
+                "Do czego to powstało?",
+                "Jakie ma to działanie?",
+                "Po co to ktoś stworzył?",
+                "W jakim celu zostało to stworzone?",
+                "Do czego zostało to stworzony Bob",
+                "Co robi Bob?",
+                "Jakie zastosowanie ma Bob",
+                "Do czego to jest?",
+                "Po co to jest?",
+                "Komu to potrzebne?",
+                "Komu to się przyda?",
+                "Jakie osoby mogą skorzystać z tego?",
+                "Komu może pomóc Bob?",
+                "Po co Bob powstał?",
+                "Jak działa Bob?",
+                "W jakim celu działa Bob?",
+                "W jakim celu działa ta strona?"
+            ],
+            "responses":[
+              "Bob jest botem, którego celem jest pomoc osobie, która nie wie co należy zrobić w danej sytuacji. Bot udziela również informacje techniczne, takie jak kontakt oraz informacje, kto stworzył stornę."
+            ]
+        },
+        {
+            "tag":"jakiezastosowaneang",
+            "patterns":[
+                "What does it do?",
+                "What application does it have?",
+                "What is this for?",
+                "How does it apply?",
+                "How does this work?",
+                "What Bob was made for?",
+                "What effect it has?",
+                "What Bob does?",
+                "What is Bob effect of work?",
+                "What application is Bob?",
+                "Who needs it?",
+                "What kind of people can benefit from it?",
+                "Who can Bob help?",
+                "Why was Bob created?",
+                "What is Bob working for?",
+                "What is this website working for?"
+            ],
+            "responses":[
+               "Bob is a bot designed to help someone who doesn't know what to do in a given situation. The bot also shares technical information such as contact details and who created the page."
+            ]
+        },
+        {
+            "tag":"logowanie",
+            "patterns":[
+                "Jak się zalogować i zarejestrować?",
+                "Jak się zalogować?",
+                "Jak się zarejestrować?",
+                "Jak założyć konto?",
+                "Jak utworzyć konto?",
+                "Jak zrobić konto?"
+            ],
+            "responses":[
+                "Żeby założyć konto trzeba wybrać, czy jest się wolontariuszem, czy osobą potrzebującą następnie przenosi nas do wyboru logowania i rejestracji, żeby założyć konto trzeba najechać kursorem na ikonkę ołówka, pod nią powinno pisać 'Tworzenie Konta', klikamy w tą ikonę. Po kliknięciu wyskakują nam cztery okienka do wypełnia: w pierwszym należy wpisać swoją wymyśloną nazwę użytkownika, która będzie wyświetlana na stronie; w drugim okienku podajemy swój adres e-mail, jest on wymagany do podania przy zakładaniu konta; w trzecim okienku należy wpisać hasło (hasło musi mieć co najmniej 7 znaków); w czwartym okienku musimy wpisać wcześniej wymyślone hasło następnie kliknąć przycisk utwórz konto. Po zakończeniu rejestracji wracamy do strony początkowej i wybieramy ikonkę z kłódką, pod ikoną powinno pisać logowanie, klikamy w nie. Po kliknięciu pojawiają się 2 okna. W jednym z nich trzeba wpisać e-mail, który użyto do stworzenia konta, w drugim oknie wpisujemy hasło, które wcześniej wymyśliliśmy przy zakładaniu konta. Po wpisaniu danych klikamy zaloguj i gotowe, oficjalnie jesteś członkiem naszej strony i możesz z niej w pełni korzystać."
+            ]
+        },
+        {
+            "tag":"logowanieang",
+            "patterns":[
+                "How to log in and register?",
+                "How to log in?",
+                "How to register?",
+                "How to create an account?",
+                "How can I log in?",
+                "How can I register?"
+            ],
+            "responses":[
+                "To create an account, you must choose whether you are a volunteer or a needy person. After selecting log in / register, to create an account, select the icon and click 'Załóż konto'. After clicking the icon, enter data in four fields: in the first, enter your username that will be displayed on the page; in the second, we provide the e-mail address; in the third, enter the password (the password must be at least 7 characters long); in the fourth window, enter the previously provided password and click the button to create an account. After completing the registration, go back to the home page and select the lock icon, click on it and enter your login. Enter data in the two windows that appear. In one of them you need to enter your e-mail address, in the second we enter the password that we came up with when saving the account. After entering the data, we log in and everything is ready."
+            ]
+        }
+        
+    ]
+}
