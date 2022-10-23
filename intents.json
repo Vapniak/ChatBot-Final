@@ -9,13 +9,15 @@
                 "Siema",
                 "Dobry wieczór",
                 "Elo",
+                "Wassup",
                 "Joł",
                 "Hej",
                 "Pochwalony",
                 "Witaj",
                 "Elo elo trzy dwa zero",
                 "Siemanko",
-                "Elo Elo"
+                "Elo Elo",
+                "Hejka"
             ],
             "responses":[
                 "Dzień dobry",
@@ -167,7 +169,7 @@
                 "Dzięki komu działa strona?"
             ],
             "responses": [
-                "Przy tym projekcie pracowali: Oliwier Adamczyk - programista, pomysłodawca; Piort Piskorz - copywriter;  Bartłomiej Pachniak - copywriter;  Łukasz Kucharczyk - programista, grafik;"
+                "Przy tym projekcie pracowali: Oliwier Adamczyk - programista, pomysłodawca; Piotr Piskorz - copywriter;  Bartłomiej Pachniak - copywriter;  Łukasz Kucharczyk - programista, grafik;"
             ]
         },
         {
@@ -183,7 +185,7 @@
                 "What kind of people did this project?",
                 "Creators are?",
                 "Who made it?",
-                "Who create it?",
+                "Who creates it?",
                 "Was it made by?",
                 "Who made this site?",
                 "Who made this project?",
@@ -194,7 +196,7 @@
                 "Who makes the site work?"
             ],
             "responses": [
-                "The project was created by: Oliwier Adamczyk - programmer, originator; Piort Piskorz - copywriter; Bartłomiej Pachniak - copywriter; Łukasz Kucharczyk - programmer, graphic designer;"
+                "The project was created by: Oliwier Adamczyk - programmer, originator; Piotr Piskorz - copywriter; Bartłomiej Pachniak - copywriter; Łukasz Kucharczyk - programmer, graphic designer;"
             ]
         },
         {
@@ -232,7 +234,7 @@
                 "What was used for the site?"
             ],
             "responses": [
-                "Our project is based mainly on languages such as JavaScript, HTML, CSS, Python and on extensive databases in Firebase from Google."
+                "Our project is based mainly on languages such as JavaScript, HTML, CSS, Python and extensive databases in Firebase from Google."
             ]
         },
         {
@@ -262,7 +264,7 @@
                 "Why is this job going to win?"
             ],
             "responses": [
-                "For our team, the most important thing is to help those in need and have fun. Thanks to this project, we can help needy citizens who, due to certain factors, are unable to perform certain activities."
+                "Our team's most important thing is to help those in need and have fun. Thanks to this project, we can help needy citizens who, due to certain factors, cannot perform certain activities."
             ]
         },
         {
@@ -305,7 +307,7 @@
                 "Where can I look for help?",
                 "What if I find a bug?",
                 "What are the available options for communicating with you",
-                "Where can I get contact with you?",
+                "Where can I get in contact with you?",
                 "Can I contact you by phone?",
                 "What is the contact email?",
                 "It is possible to ask for a contact for you"
@@ -334,9 +336,9 @@
                 "Jak mam się do ciebie określać?",
                 "Z jakim imieniem sie upodabniasz?",
                 "Za kogo się uważasz?",
-                "Kim mam cię określać?",
-                "Za kogo się podajesz?"
-
+                "Jak mam cię określać?",
+                "Za kogo się podajesz?",
+                "Jaka jest twoja nazwa?"
             ],
             "responses":[
                 "Mam na imię Bob",
@@ -356,7 +358,7 @@
                 "Who are you?",
                 "Who am I dealing with?",
                 "Your name is?",
-                "How they are talking to you?",
+                "How are they talking to you?",
                 "How do you call yourself?",
                 "Please state your name",
                 "What are you calling yourself",
@@ -386,24 +388,7 @@
             ]
         },
         {
-            "tag":"nierozumiemang",
-            "patterns":[],
-            "responses":[
-               "I don't understand",
-               "You can repeat because I don't understand",
-               "I did not understand the command",
-               "I have no idea",
-               "I do not know",
-               "Do not ask me, I don't know",
-               "Good question, I don't know",
-               "Excuse my ignorance, but I don't know ",
-               "How should i know",
-               "I can't help you there",
-               "I have no clue"
-            ]
-        },
-        {
-            "tag":"jakiezastosowane",
+            "tag":"jakiezastosowanie",
             "patterns":[
                 "Co to robi?",
                 "Jakie ma to zastosowanie?",
@@ -441,7 +426,7 @@
                 "What Bob was made for?",
                 "What effect it has?",
                 "What Bob does?",
-                "What is Bob effect of work?",
+                "What is Bob effect on work?",
                 "What application is Bob?",
                 "Who needs it?",
                 "What kind of people can benefit from it?",
@@ -471,7 +456,7 @@
         {
             "tag":"logowanieang",
             "patterns":[
-                "How to log in and register?",
+                "How do log in and register?",
                 "How to log in?",
                 "How to register?",
                 "How to create an account?",
@@ -479,7 +464,7 @@
                 "How can I register?"
             ],
             "responses":[
-                "To create an account, you must choose whether you are a volunteer or a needy person. After selecting log in / register, to create an account, select the icon and click 'Załóż konto'. After clicking the icon, enter data in four fields: in the first, enter your username that will be displayed on the page; in the second, we provide the e-mail address; in the third, enter the password (the password must be at least 7 characters long); in the fourth window, enter the previously provided password and click the button to create an account. After completing the registration, go back to the home page and select the lock icon, click on it and enter your login. Enter data in the two windows that appear. In one of them you need to enter your e-mail address, in the second we enter the password that we came up with when saving the account. After entering the data, we log in and everything is ready."
+                "To create an account, you must choose whether you are a volunteer or a needy person. After selecting log in / register, to create an account, select the icon and click 'załóż konto'. After clicking the icon, enter data in four fields: in the first, enter your username that will be displayed on the page; in the second, we provide the e-mail address; in the third, enter the password (the password must be at least 7 characters long); in the fourth window, enter the previously provided password and click the button to create an account. After completing the registration, go back to the home page and select the lock icon, click on it and enter your login. Enter data in the two windows that appear. In one of them you need to enter your e-mail address, in the second we enter the password that we came up with when saving the account. After entering the data, we log in and everything is ready."
             ]
         },
         {
@@ -524,38 +509,19 @@
             ]
         },
         {
-            "tag":"dalszyrozwoj",
+            "tag":"jakiezapotrzebowanie",
             "patterns":[
-                "Jakie macie plany na dalszy rozwój?",
-                "Jaki będzie dalszy rozwój?",
-                "Co się stanie później?",
-                "Na czym będzie polegał dalszy rozwój strony?",
-                "Jak będzie się strona rozwijać?",
-                "Jak wdrożycie plany?",
-                "Dzięki komu wdrożycie plany?",
-                "Kto będzie partnerami tego planu?",
-                "Kim będą osoby zaangażowane w ten plan",
-                "Kto będzie w to zaangażowany?"
+                "W czym pomaga wasz projekt?",
+                "Jakie problemy rozwiązuje wasz projekt?",
+                "Co ułatwia wasz projekt?",
+                "Co daje ten projekt?",
+                "Jakie ułatwienia wprowadza?",
+                "Co oferuje nasz projekt?",
+                "Co umożliwia?",
+                "Komu pomaga?"
             ],
             "responses":[
-                "Na dalszy rozwój naszego rozwiązania planujemy rozwinąć naszą stronę, tak aby miała obszar bardziej globalny, niż pomoc sąsiedzka. Chcemy ulepszyć tak stronę, żeby była jeszcze bardziej łatwa w obsłudze i bardziej czytelna dla starszych osób, jak i młodszych. Nasz projekt mógłby zostać wdrożony, przez deweloperów osiedli, którzy przy zakładaniu osiedla wysyłaliby każdemu mieszkańcowi taką stronę, aby w razie problemów mogli uzyskać pomoc. Partnerami, którzy mogliby się zaangażować w rozwój projektu mogłyby być firmy, które dostawcze dostarczające między innymi pożywienie. W momencie uzyskania takiego partnera na stronie można byłoby zamawiać jedzenie, a wolontariusze przekazywali by to do ówczesnej firmy"
-            ]
-        },
-        {
-            "tag":"dalszyrozwojang",
-            "patterns":[
-                "What are your plans for further development?",
-                "What will be the further development?",
-                "What will the further development of the website consist of?",
-                "How will the website develop?",
-                "How will you implement the plans?",
-                "Thanks to whom will you implement the plans?",
-                "Who will be partners in this plan?",
-                "Who will be the people involved in this plan"
-
-            ],
-            "responses":[
-                "In order to further develop our solution, we plan to change the area to a more global one, thanks to which we will expand the possibilities. We want to improve the website to make it even more precise and understandable for both older and younger people. Our project can be implemented by housing estate developers who can start sending a page to residents so that they can get help in case of problems. Partners who may be involved in completing the task may be food suppliers. As soon as such a company is reached, the food could be ordered on the website and the order would be passed on by volunteers to the delivery company."
+                "Nasz projekt powstał w celu wsparcia osób szukających pomocy przez pisanie tego na forum. Wolontariusze oferują pomoc i przez łączenie się ludzie mogą ją uzyskać a wiek nie ma tu żadnego znaczenia."
             ]
         },
         {
@@ -572,8 +538,47 @@
                 "Who does it help?"
             ],
             "responses":[
-                "Our project was created to support people seeking help by writing it on the forum. Volunteers offer help and by connecting people can get help and age is not an issue"
+                "Our project was created to support people seeking help by writing it on the forum. Volunteers offer help and by connecting people can get help and age is not an issue."
             ]
-        }  
+
+        },
+        {
+            "tag":"jakzrobiczlecenie",
+            "patterns":[
+                "Jak zrobić zlecenie?",
+                "Co zrobić żeby zobić zlecenie?",
+                "Jak się robi zlecenia?",
+                "Co trzeba zrobić żeby zrobić zlecenie?",
+                "Jak wykonać zlecenie?",
+                "Co jest potrzebne do wykoania zlecenia?",
+                "Co porzebne jest do wykonania zlecenia?",
+                "Jak robić zlecenia?",
+                "Co trzeba zrobić żeby wykonać zlecenie?",
+                "Jak wykonywać zlecenie?",
+                "Jak wykonać zlecenie?"
+            ],
+            "responses":[
+                "Po zalogowaniu na konto wolotariusza, kilkasz przycisk zlecenia tam wyświetlają się zlecenia do wwykonania, po wykonaniu zlecenia osoba potrzebująca musi potwierdzić twoją pomoc i w tedy zakańcza się zlecenie i dostaje się punkty."
+            ]
+        },
+        {
+            "tag":"jakzrobiczlecenie",
+            "patterns":[
+                "How to make an order?",
+                "What to do to see an order?",
+                "How do you make orders?",
+                "What does it take to make an order?",
+                "How to make an order?",
+                "What is needed to execute an order?",
+                "What is needed to make an order?", "What is needed to make an order?",
+                "How to make orders?",
+                "What do you need to do to execute an order?",
+                "How to execute an order?",
+                "How to execute an order?"
+            ],
+            "responses":[
+                "After logging in to a volunteer's account, you click on the order button where you can see the orders to be executed, after executing the order the person in need must confirm your help, and then the order is completed and you get points."
+            ]
+        }
     ]
 }
