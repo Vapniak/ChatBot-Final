@@ -42,6 +42,7 @@ class Chatbox {
 
         let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
+        chatbox__messages.scrollTo(0, chatbox__messages.scollHeight);
 
         //adres strony
         fetch('/predict', {

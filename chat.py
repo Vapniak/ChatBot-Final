@@ -5,13 +5,12 @@ import unicodedata
 from model import NeuralNet
 from nltk_utils import bag_of_words, tokenize
 
-
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 with open('intents.json', 'r', encoding='utf8') as f:
     intents = json.load(f)
 
-FILE = "data.pth"   
+FILE = "data.pth"
 data = torch.load(FILE)
 
 input_size = data["input_size"]
@@ -27,7 +26,7 @@ model.load_state_dict(model_state)
 model.eval()
 
 
-bot_name = "Nazwa Bota"
+bot_name = "Bob"
 
 def get_response(msg):
     msg = unicodedata.normalize('NFKD', msg).encode('ascii', 'ignore')
@@ -44,14 +43,17 @@ def get_response(msg):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    #dostosowac prawdobodobienstwo
-    print(prob.item())
-    if prob.item() > 0.80:
-        for intent in intents['intents']:
-            if tag == intent["tag"]:
-                return random.choice(intent['responses'])
-    return "I do not understand..."
 
+    if prob.item() > 0.90:
+        for intent in intents['intents']:
+            if tag == intent['tag']:
+                return random.choice(intent['responses'])
+    return dontunderstand()
+
+def dontunderstand():
+    for intent in intents['intents']:
+            if intent['tag'] == "nierozumiem":
+                return random.choice(intent['responses'])
 
 if __name__ == "__main__":
     while True:

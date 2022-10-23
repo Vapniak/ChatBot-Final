@@ -9,6 +9,10 @@ body {
     font-family: 'Comfortaa';
     font-weight: 400;
     font-size: 80%;
+    cursor: context-menu;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
 }
 
 *, html {
@@ -95,7 +99,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 15px 10px;
+    padding: 10px 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: var(--primaryBoxShadow);

@@ -1,4 +1,3 @@
-#WAZNE TRENUJ BOTA PO ZMIANACH W INTENTS
 import json
 from nltk_utils import tokenize, stem, bag_of_words
 
@@ -23,15 +22,11 @@ for intent in intents['intents']:
     tag = intent['tag']
     tags.append(tag)
     for pattern in intent['patterns']:
+        pattern = unicodedata.normalize('NFKD', pattern).encode('ascii', 'ignore')
+        pattern = pattern.decode('ascii')
         w = tokenize(pattern)
         all_words.extend(w)
         xy.append((w, tag))
-
-#loop przez kazdy pattern i zmienianie go na odpowiednik w jezyku ascii aby usunac polskie znaki
-
-for i in range(len(all_words)):
-    word = unicodedata.normalize('NFKD', all_words[i]).encode('ascii', 'ignore')
-    all_words[i] = word.decode('ascii')
 
 ignore_words = ['?','!','.',","]
 all_words = [stem(w) for w in all_words if w not in ignore_words]
@@ -54,9 +49,8 @@ class ChatDataSet(Dataset):
     def __init__(self):
         self.n_samples = len(X_train)
         self.x_data = X_train
-        self.y_data = Y_train   
+        self.y_data = Y_train
 
-    #dataset[idx]
     def __getitem__(self, index):
         return self.x_data[index], self.y_data[index]
 
@@ -78,7 +72,7 @@ train_loader = DataLoader(dataset=dataset, batch_size=batch_size, shuffle=True, 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = NeuralNet(input_size, hidden_size, output_size).to(device)
 
-#loss and optimizer 
+#loss and optimizer
 
 criterion = nn.CrossEntropyLoss()
 optimizer = torch.optim.Adam(model.parameters(), lr=learning_rate)
@@ -88,7 +82,7 @@ for epoch in range(num_epochs):
         words = words.to(device)
         labels = labels.to(dtype=torch.long).to(device)
 
-        #forward 
+        #forward
         outputs = model(words)
         loss = criterion(outputs, labels)
 
@@ -96,7 +90,7 @@ for epoch in range(num_epochs):
         optimizer.zero_grad()
         loss.backward()
         optimizer.step()
-        
+
     if (epoch+1) % 100 == 0:
         print (f'Epoch [{epoch+1}/{num_epochs}], Loss: {loss.item():.4f}')
 

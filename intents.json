@@ -9,7 +9,6 @@
                 "Siema",
                 "Dobry wieczór",
                 "Elo",
-                "Wassup",
                 "Joł",
                 "Hej",
                 "Pochwalony",
@@ -428,7 +427,7 @@
                 "W jakim celu działa ta strona?"
             ],
             "responses":[
-              "Bob jest botem, którego celem jest pomoc osobie, która nie wie co należy zrobić w danej sytuacji. Bot udziela również informacje techniczne, takie jak kontakt oraz informacje, kto stworzył stornę."
+              "Jestem 'Bob' taki bot, którego celem jest pomoc osobie, która nie wie co należy zrobić w danej sytuacji. Bot udziela również informacji technicznych, takich jak kontakt oraz kto stworzył stronę."
             ]
         },
         {
@@ -452,7 +451,7 @@
                 "What is this website working for?"
             ],
             "responses":[
-               "Bob is a bot designed to help someone who doesn't know what to do in a given situation. The bot also shares technical information such as contact details and who created the page."
+               "I am 'Bob' a bot whose goal is to help a person who does not know what to do in a given situation. The bot also provides technical information such as contact and who created the page."
             ]
         },
         {
@@ -482,7 +481,99 @@
             "responses":[
                 "To create an account, you must choose whether you are a volunteer or a needy person. After selecting log in / register, to create an account, select the icon and click 'Załóż konto'. After clicking the icon, enter data in four fields: in the first, enter your username that will be displayed on the page; in the second, we provide the e-mail address; in the third, enter the password (the password must be at least 7 characters long); in the fourth window, enter the previously provided password and click the button to create an account. After completing the registration, go back to the home page and select the lock icon, click on it and enter your login. Enter data in the two windows that appear. In one of them you need to enter your e-mail address, in the second we enter the password that we came up with when saving the account. After entering the data, we log in and everything is ready."
             ]
-        }
-        
+        },
+        {
+            "tag":"podziekowanie",
+            "patterns":[
+                "Dzięki",
+                "Dziękuję",
+                "Dzięki za pomoc",
+                "Dziękuję za pomoc",
+                "Wyrazy wdzięczności",
+                "Pięknie dziękuję",
+                "Ślicznie dziękuję"
+            ],
+            "responses":[
+                "Nie ma sprawy",
+                "Zawsze do usług",
+                "Nie ma za co",
+                "Proszę",
+                "Jestem tu, aby pomagać"
+            ]
+        },
+        {
+            "tag":"podziekowanieang",
+            "patterns":[
+                "Thank you",
+                "I’m so grateful",
+                "I appreciate it",
+                "Thanks for your hard work on this",
+                "I couldn’t have done it without you",
+                "Thanks for having my back",
+                "Cheers",
+                "Much appreciated",
+                "It means the world to me",
+                "I sincerely applaud you"
+            ],
+            "responses":[
+                "You’re welcome",
+                "No problem",
+                "No worries",
+                "My pleasure",
+                "Glad to help"
+            ]
+        },
+        {
+            "tag":"dalszyrozwoj",
+            "patterns":[
+                "Jakie macie plany na dalszy rozwój?",
+                "Jaki będzie dalszy rozwój?",
+                "Co się stanie później?",
+                "Na czym będzie polegał dalszy rozwój strony?",
+                "Jak będzie się strona rozwijać?",
+                "Jak wdrożycie plany?",
+                "Dzięki komu wdrożycie plany?",
+                "Kto będzie partnerami tego planu?",
+                "Kim będą osoby zaangażowane w ten plan",
+                "Kto będzie w to zaangażowany?"
+            ],
+            "responses":[
+                "Na dalszy rozwój naszego rozwiązania planujemy rozwinąć naszą stronę, tak aby miała obszar bardziej globalny, niż pomoc sąsiedzka. Chcemy ulepszyć tak stronę, żeby była jeszcze bardziej łatwa w obsłudze i bardziej czytelna dla starszych osób, jak i młodszych. Nasz projekt mógłby zostać wdrożony, przez deweloperów osiedli, którzy przy zakładaniu osiedla wysyłaliby każdemu mieszkańcowi taką stronę, aby w razie problemów mogli uzyskać pomoc. Partnerami, którzy mogliby się zaangażować w rozwój projektu mogłyby być firmy, które dostawcze dostarczające między innymi pożywienie. W momencie uzyskania takiego partnera na stronie można byłoby zamawiać jedzenie, a wolontariusze przekazywali by to do ówczesnej firmy"
+            ]
+        },
+        {
+            "tag":"dalszyrozwojang",
+            "patterns":[
+                "What are your plans for further development?",
+                "What will be the further development?",
+                "What will the further development of the website consist of?",
+                "How will the website develop?",
+                "How will you implement the plans?",
+                "Thanks to whom will you implement the plans?",
+                "Who will be partners in this plan?",
+                "Who will be the people involved in this plan"
+
+            ],
+            "responses":[
+                "In order to further develop our solution, we plan to change the area to a more global one, thanks to which we will expand the possibilities. We want to improve the website to make it even more precise and understandable for both older and younger people. Our project can be implemented by housing estate developers who can start sending a page to residents so that they can get help in case of problems. Partners who may be involved in completing the task may be food suppliers. As soon as such a company is reached, the food could be ordered on the website and the order would be passed on by volunteers to the delivery company."
+            ]
+        },
+        {
+
+            "tag":"jakiezapotrzebowanieang",
+            "patterns":[
+                "How does your project help?",
+                "What problems does your project solve?",
+                "What does your project facilitate?",
+                "What does the project provide?",
+                "What facilitation does it provide?",
+                "What does our project offer?",
+                "What does it make possible?",
+                "Who does it help?"
+            ],
+            "responses":[
+                "Our project was created to support people seeking help by writing it on the forum. Volunteers offer help and by connecting people can get help and age is not an issue"
+            ]
+        }  
     ]
 }
