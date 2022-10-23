@@ -579,6 +579,72 @@
             "responses":[
                 "After logging in to a volunteer's account, you click on the order button where you can see the orders to be executed, after executing the order the person in need must confirm your help, and then the order is completed and you get points."
             ]
+        },
+        {
+            "tag":"dalszyrozwoj",
+            "patterns":[
+                "Jakie macie plany na dalszy rozwój?",
+                "Jaki będzie dalszy rozwój?",
+                "Co się stanie później?",
+                "Na czym będzie polegał dalszy rozwój strony?",
+                "Jak będzie się strona rozwijać?",
+                "Jak wdrożycie plany?",
+                "Dzięki komu wdrożycie plany?",
+                "Kto będzie partnerami tego planu?",
+                "Kim będą osoby zaangażowane w ten plan",
+                "Kto będzie w to zaangażowany?"
+            ],
+            "responses":[
+                "Na dalszy rozwój naszego rozwiązania planujemy rozwinąć naszą stronę, tak aby miała obszar bardziej globalny, niż pomoc sąsiedzka. Chcemy ulepszyć tak stronę, żeby była jeszcze bardziej łatwa w obsłudze i bardziej czytelna dla starszych osób, jak i młodszych. Nasz projekt mógłby zostać wdrożony, przez deweloperów osiedli, którzy przy zakładaniu osiedla wysyłaliby każdemu mieszkańcowi taką stronę, aby w razie problemów mogli uzyskać pomoc. Partnerami, którzy mogliby się zaangażować w rozwój projektu mogłyby być firmy, które dostawcze dostarczające między innymi pożywienie. W momencie uzyskania takiego partnera na stronie można byłoby zamawiać jedzenie, a wolontariusze przekazywali by to do ówczesnej firmy"
+            ]
+        },
+        {
+            "tag":"dalszyrozwojang",
+            "patterns":[
+                "What are your plans for further development?",
+                "What will be the further development?",
+                "What will the further development of the website consist of?",
+                "How will the website develop?",
+                "How will you implement the plans?",
+                "Thanks to whom will you implement the plans?",
+                "Who will be partners in this plan?",
+                "Who will be the people involved in this plan"
+
+            ],
+            "responses":[
+                "In order to further develop our solution, we plan to change the area to a more global one, thanks to which we will expand the possibilities. We want to improve the website to make it even more precise and understandable for both older and younger people. Our project can be implemented by housing estate developers who can start sending a page to residents so that they can get help in case of problems. Partners who may be involved in completing the task may be food suppliers. As soon as such a company is reached, the food could be ordered on the website and the order would be passed on by volunteers to the delivery company."
+            ]
+        },
+        {
+            "tag":"punkty",
+            "patterns":[
+                "Na czym polega system punktów?",
+                "Co to punkty?",
+                "Czym są punkty?",
+                "Jak zdobyć punkty?",
+                "Jak zbierać punkty?",
+                "Po co są punkty?",
+                "Czym jest ranking?"
+
+            ],
+            "responses":[
+                "System punktów polega na wykonywaniu jako wolontariusz zleceń,które zostały utworzone przez osoby potrzebujące. Zbierając punkty Twoje miejsce rośnie w rankingu najbardziej aktywnych wolontariuszy."
+            ]
+        },
+        {
+            "tag":"punktyang",
+            "patterns":[
+                "What is the points system?",
+                "What are the points?",
+                "What are points?",
+                "How to get points?",
+                "How to collect points?",
+                "What are the points for?",
+                "What is ranking?"
+            ],
+            "responses":[
+                "The point system is based on the volunteer carrying out orders that are created by people in need. By collecting points, your place rises in the ranking of the most active volunteers."
+            ]
         }
     ]
 }
